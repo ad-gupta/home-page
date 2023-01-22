@@ -1,0 +1,131 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  display: flex;
+  align-items: center;
+  background-color: rgb(10, 10, 91);
+  height: 6.8vw;
+}
+
+.navbar-chart{
+  display: flex;
+  align-items: center;
+}
+
+li{
+  list-style-type: none;
+  padding: 2vw 4vw;
+  font-size: 3vw;
+}
+.company-logo{
+  height: 5vw;
+  width: 8vw;
+  margin-left: 2vw;
+  border-radius: 50%;
+  margin-right: 2vw;
+}
+
+a{
+  text-decoration: none;
+  color: #f9f9f9;
+
+}
+
+a:hover{
+  background-color: rgb(245, 250, 196);
+  color: rgb(10, 10, 91);
+  border-radius: 1vw;
+  padding: 1vw;
+}
+
+.store1:hover{
+  background-color: transparent;
+  color: rgb(10, 10, 91);
+  border-radius: 1vw;
+  padding: 1vw;
+}
+
+.dropdown:hover .dropdown-menu{
+  display: block
+}
+
+.dropdown-menu a {
+  color: black;
+  padding: 1.5vw 2vw;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 1vw 2vw 0px rgba(0,0,0,0.2);
+}
+
+button {
+  background-color: rgb(10, 10, 91);
+  border: none;
+  color: white;
+  padding: 1.8vw 3vw;
+  text-align: center;
+  text-decoration: none;
+  font-size: 2.7vw;
+  font-family: 'Libre Baskerville', serif;
+  width: 25vw;
+  margin-left: -5vw;
+  margin-right: -5vw;
+}
+
+.display-body{
+  background-image: url('./images/background.jpg');
+  background-size: cover;
+  height: 87vh;
+  background-position:right;
+}
+.store-img{
+  height: 9vw;
+  width: 17vw;
+  margin-left: 1vw;
+  margin-top: 10vh;
+  border-radius: 3vw;
+}
+
+
+.text1{
+  width: 40vw;
+  font-size: 5vw;
+  padding-top: 10vw;
+  color: rgb(178, 8, 8);
+  font-family: 'Libre Baskerville', serif;
+  text-shadow: 3px 2px 3px rgb(209, 246, 209);
+  font-weight: bold;
+}
+
+.display-left{
+  margin-left: 5vw;
+}
+
+.store{
+  display: flex;
+}
+
+.display-body{
+  display: flex;
+}
+
+/* @media screen and (max-width: 600px) {
+  p{
+    width: 100%;
+    font-size: 80px;
+    padding-top: 100px;
+    color: rgb(178, 8, 8);
+    font-family: 'Libre Baskerville', serif;
+    text-shadow: 3px 2px 3px rgb(209, 246, 209);
+    font-weight: bold;
+  }
+} */
